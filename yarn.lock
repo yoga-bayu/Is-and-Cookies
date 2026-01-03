@@ -4576,7 +4576,7 @@ __metadata:
     gatsby-plugin-sharp: "npm:^5.14.0"
     gatsby-plugin-sitemap: "npm:^6.14.0"
     gatsby-remark-copy-linked-files: "npm:^6.13.2"
-    gatsby-remark-images: "npm:^7.13.2"
+    gatsby-remark-images: "npm:^7.15.0"
     gatsby-remark-prismjs: "npm:^7.14.0"
     gatsby-remark-relative-images: "npm:^2.0.5"
     gatsby-remark-responsive-iframe: "npm:^6.13.2"
@@ -9958,6 +9958,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-core-utils@npm:^4.15.0":
+  version: 4.15.0
+  resolution: "gatsby-core-utils@npm:4.15.0"
+  dependencies:
+    "@babel/runtime": "npm:^7.20.13"
+    ci-info: "npm:2.0.0"
+    configstore: "npm:^5.0.1"
+    fastq: "npm:^1.15.0"
+    file-type: "npm:^16.5.4"
+    fs-extra: "npm:^11.2.0"
+    got: "npm:^11.8.6"
+    hash-wasm: "npm:^4.11.0"
+    import-from: "npm:^4.0.0"
+    lmdb: "npm:2.5.3"
+    lock: "npm:^1.1.0"
+    node-object-hash: "npm:^2.3.10"
+    proper-lockfile: "npm:^4.1.2"
+    resolve-from: "npm:^5.0.0"
+    tmp: "npm:^0.2.1"
+    xdg-basedir: "npm:^4.0.0"
+  checksum: 10c0/94dae80fcabf35a59102420d2b640427cc1cc04930b7ba32e2a51909fdf597dcde491278876b3322cb15cb9fd5c4028afcb183c38f86cedd1f0dc64c10e4e91f
+  languageName: node
+  linkType: hard
+
 "gatsby-graphiql-explorer@npm:^3.14.0":
   version: 3.14.0
   resolution: "gatsby-graphiql-explorer@npm:3.14.0"
@@ -10311,14 +10335,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-remark-images@npm:^7.13.2":
-  version: 7.13.2
-  resolution: "gatsby-remark-images@npm:7.13.2"
+"gatsby-remark-images@npm:^7.15.0":
+  version: 7.15.0
+  resolution: "gatsby-remark-images@npm:7.15.0"
   dependencies:
     "@babel/runtime": "npm:^7.20.13"
     chalk: "npm:^4.1.2"
     cheerio: "npm:1.0.0-rc.12"
-    gatsby-core-utils: "npm:^4.13.1"
+    gatsby-core-utils: "npm:^4.15.0"
     is-relative-url: "npm:^3.0.0"
     lodash: "npm:^4.17.21"
     mdast-util-definitions: "npm:^4.0.0"
@@ -10328,7 +10352,7 @@ __metadata:
   peerDependencies:
     gatsby: ^5.0.0-next
     gatsby-plugin-sharp: ^5.0.0-next
-  checksum: 10c0/79476e78c3f93b266b165b692039e3a7eb5e4ce0c6d24f7dc4111697516854cc94f32278c8a8d55c6ae30d7afd1234668d276a90eddc3e11121e95ed19f8ee35
+  checksum: 10c0/49f39e184c2f07f60cd51a55455580d00a10e0c9055206fe97e07182e9eac514a50c7cd36c7d2f24b9c3b9b8c5c02e8a8d05531c9bf02c5ebcecc75e7a53c7f7
   languageName: node
   linkType: hard
 
