@@ -1,6 +1,5 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
-import logo from "../../../holo-theme/static/img/logo.png"
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false)
