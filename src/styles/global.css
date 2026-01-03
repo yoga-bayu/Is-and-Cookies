@@ -1,6 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+
+
+.font-parisienne {
+  font-family: "Parisienne", cursive;
+}
+
+.font-pinyonScript {
+  font-family: 'Pinyon Script', cursive;;
+}
 
 
 p, input, textarea {
@@ -24,7 +34,10 @@ a {
     color: white;
   }
   body {
-    background-color: hsla(243, 60%, 95%, 1);
+    /* background-color: hsla(243, 60%, 95%, 1); */
+    background: linear-gradient(135deg, #f6d365, #fda085, #f6d365);
+    /* background: linear-gradient(to right, #f6d365, #fda085); */
+
   }
 }
 
@@ -35,8 +48,79 @@ a {
   }
 }
 
+/* TEXT SHINE START */
+.shine-text {
+  position: relative;
+  display: inline-block;
+  background-size: 200% auto;
+  animation: shineSweep 4s linear infinite;
+  background-image: linear-gradient(
+    90deg,
+    #1a1a1a 0%,
+    #3a3a3a 30%,
+    #d1d1d1 50%,
+    #3a3a3a 70%,
+    #1a1a1a 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
-/* ~~~~ Custom CSS - I know it's bad T_T ~~~~ */
+@keyframes shineSweep {
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+/* TEXT SHINE END */
+
+/* CARD SHINE START */
+.card-shine {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-shine::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: skewX(-25deg);
+}
+
+.card-shine:hover::before {
+  animation: shine 1s forwards;
+}
+
+@keyframes shine {
+  0% {
+    left: -75%;
+  }
+  100% {
+    left: 125%;
+  }
+}
+
+.card-shine:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+/* CARD SHINE END */
+
+
+
+/* ~~ Custom CSS - I know it's bad T_T ~~ */
 
 /* Stop page  side scrolling on mobile */
 html,
@@ -58,3 +142,34 @@ body {
 
 /* 404 page */ 
 .\34 04-p {display: flex; flex-direction: column; align-items: center; padding: 40px 0px;}
+
+/* Video Responsive */
+
+/* RESPONSIVE VIDEO WRAPPER */
+.intro-video {
+  width: 100%;
+  height: 100%;
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+  .intro-video {
+    object-fit: cover;
+  }
+}
+
+/* Tablet */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .intro-video {
+    object-fit: contain;
+    background-color: black;
+  }
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .intro-video {
+    object-fit: contain;
+    background-color: black;
+  }
+}
