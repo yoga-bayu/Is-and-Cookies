@@ -4573,7 +4573,7 @@ __metadata:
     gatsby-plugin-netlify-cms: "npm:^7.12.1"
     gatsby-plugin-offline: "npm:^6.13.3"
     gatsby-plugin-postcss: "npm:^6.14.0"
-    gatsby-plugin-sharp: "npm:^5.14.0"
+    gatsby-plugin-sharp: "npm:^5.15.0"
     gatsby-plugin-sitemap: "npm:^6.14.0"
     gatsby-remark-copy-linked-files: "npm:^6.13.2"
     gatsby-remark-images: "npm:^7.13.2"
@@ -9958,6 +9958,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-core-utils@npm:^4.15.0":
+  version: 4.15.0
+  resolution: "gatsby-core-utils@npm:4.15.0"
+  dependencies:
+    "@babel/runtime": "npm:^7.20.13"
+    ci-info: "npm:2.0.0"
+    configstore: "npm:^5.0.1"
+    fastq: "npm:^1.15.0"
+    file-type: "npm:^16.5.4"
+    fs-extra: "npm:^11.2.0"
+    got: "npm:^11.8.6"
+    hash-wasm: "npm:^4.11.0"
+    import-from: "npm:^4.0.0"
+    lmdb: "npm:2.5.3"
+    lock: "npm:^1.1.0"
+    node-object-hash: "npm:^2.3.10"
+    proper-lockfile: "npm:^4.1.2"
+    resolve-from: "npm:^5.0.0"
+    tmp: "npm:^0.2.1"
+    xdg-basedir: "npm:^4.0.0"
+  checksum: 10c0/94dae80fcabf35a59102420d2b640427cc1cc04930b7ba32e2a51909fdf597dcde491278876b3322cb15cb9fd5c4028afcb183c38f86cedd1f0dc64c10e4e91f
+  languageName: node
+  linkType: hard
+
 "gatsby-graphiql-explorer@npm:^3.14.0":
   version: 3.14.0
   resolution: "gatsby-graphiql-explorer@npm:3.14.0"
@@ -10204,9 +10228,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-sharp@npm:^5.14.0":
-  version: 5.14.0
-  resolution: "gatsby-plugin-sharp@npm:5.14.0"
+"gatsby-plugin-sharp@npm:^5.15.0":
+  version: 5.15.0
+  resolution: "gatsby-plugin-sharp@npm:5.15.0"
   dependencies:
     "@babel/runtime": "npm:^7.20.13"
     async: "npm:^3.2.5"
@@ -10214,15 +10238,15 @@ __metadata:
     debug: "npm:^4.3.4"
     filenamify: "npm:^4.3.0"
     fs-extra: "npm:^11.2.0"
-    gatsby-core-utils: "npm:^4.14.0"
-    gatsby-plugin-utils: "npm:^4.14.0"
+    gatsby-core-utils: "npm:^4.15.0"
+    gatsby-plugin-utils: "npm:^4.15.0"
     lodash: "npm:^4.17.21"
     probe-image-size: "npm:^7.2.3"
     semver: "npm:^7.5.3"
     sharp: "npm:^0.32.6"
   peerDependencies:
     gatsby: ^5.0.0-next
-  checksum: 10c0/a73cb3abaebf47fd3caca96ffd25caa3b706c45678e3daefbabd887547efdcb054701ac1f3c1d8590e7726ad8fbc186e99cce3c4e0307b4ac0d485c91dad5400
+  checksum: 10c0/df2ddf78d5efbc32c19f4850c4572d7bff7cc98de9a664307120aefbb0ce5842f1bebde7a2d8a427f65a1115d88407331a3fb951fcdaa1abb41f15f09f40193c
   languageName: node
   linkType: hard
 
@@ -10276,6 +10300,26 @@ __metadata:
     gatsby: ^5.0.0-next
     graphql: ^16.0.0
   checksum: 10c0/317f1fa863d14bc32458c9802e5230b8663f9eaf7954f7853f106bb1cac68bd3fc27bfc0d46256a71161521f6e2b66cf810df84c7b70f4486f08a2f8393cc623
+  languageName: node
+  linkType: hard
+
+"gatsby-plugin-utils@npm:^4.15.0":
+  version: 4.15.0
+  resolution: "gatsby-plugin-utils@npm:4.15.0"
+  dependencies:
+    "@babel/runtime": "npm:^7.20.13"
+    fastq: "npm:^1.16.0"
+    fs-extra: "npm:^11.2.0"
+    gatsby-core-utils: "npm:^4.15.0"
+    gatsby-sharp: "npm:^1.15.0"
+    graphql-compose: "npm:^9.0.10"
+    import-from: "npm:^4.0.0"
+    joi: "npm:^17.11.0"
+    mime: "npm:^3.0.0"
+  peerDependencies:
+    gatsby: ^5.0.0-next
+    graphql: ^16.0.0
+  checksum: 10c0/008795d255a711baed29b5b33bda6dbf7a0a2d19bd7c8c3d03267102acaab008f24cbc4daba807966bb04a9f2d31eeba796e7edcef890217f52a279fa6a34788
   languageName: node
   linkType: hard
 
@@ -10405,6 +10449,15 @@ __metadata:
   dependencies:
     sharp: "npm:^0.32.6"
   checksum: 10c0/f3ec52f52ab42312ce56a6091abe3fa7becc04fbfe780cfdacd2dde4ecbd58522f8e603e4213f91c287ea055ad8d67f6e4783c696f953d7bfbccb51c1cd1846a
+  languageName: node
+  linkType: hard
+
+"gatsby-sharp@npm:^1.15.0":
+  version: 1.15.0
+  resolution: "gatsby-sharp@npm:1.15.0"
+  dependencies:
+    sharp: "npm:^0.32.6"
+  checksum: 10c0/2ee9ec02e5981407b5fc992c9d150e4109b29523091fce539868bc782d7d076beaa9f3ff25dcb06082ca68e96ef4560a4e6e6ead42a4209ef6005c77c196716c
   languageName: node
   linkType: hard
 
