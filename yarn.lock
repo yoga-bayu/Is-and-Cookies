@@ -4574,7 +4574,7 @@ __metadata:
     gatsby-plugin-offline: "npm:^6.13.3"
     gatsby-plugin-postcss: "npm:^6.14.0"
     gatsby-plugin-sharp: "npm:^5.14.0"
-    gatsby-plugin-sitemap: "npm:^6.14.0"
+    gatsby-plugin-sitemap: "npm:^6.15.0"
     gatsby-remark-copy-linked-files: "npm:^6.13.2"
     gatsby-remark-images: "npm:^7.13.2"
     gatsby-remark-prismjs: "npm:^7.14.0"
@@ -10226,9 +10226,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-sitemap@npm:^6.14.0":
-  version: 6.14.0
-  resolution: "gatsby-plugin-sitemap@npm:6.14.0"
+"gatsby-plugin-sitemap@npm:^6.15.0":
+  version: 6.15.0
+  resolution: "gatsby-plugin-sitemap@npm:6.15.0"
   dependencies:
     "@babel/runtime": "npm:^7.20.13"
     common-tags: "npm:^1.8.2"
@@ -10238,7 +10238,7 @@ __metadata:
     gatsby: ^5.0.0-next
     react: ^18.0.0 || ^0.0.0
     react-dom: ^18.0.0 || ^0.0.0
-  checksum: 10c0/951a80dba1d892362b0582b55eacf93a19e14e85aa03610600eb089861ffddcd4e2ab409d96a71a1839b87798fa9ded2bbbe14ac94d5967ea8cc04e52750dd0a
+  checksum: 10c0/f699751c61f708f92e229d1ccce33c5b11a84b325b5244fd45646e33ee98da8d8f369edd9b681a5a20e5f635b0a5936925f8cecca6aa61a29f1b39ef6a958433
   languageName: node
   linkType: hard
 
