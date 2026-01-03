@@ -1,7 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import "../../styles/global.css"
-import hero from "../../../../holo-theme/static/img/logo.png"
+import hero from "../../../static/img/Github-Logo.png"
 
 const Header = () => {
   return (
